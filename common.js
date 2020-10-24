@@ -5,4 +5,11 @@ class ListNode {
     }
 }
 
-export {ListNode}
+class TreeNode {
+    constructor(val) {
+        this.val = val;
+        this.left = this.right = null;
+    }
+}
+
+export {ListNode, TreeNode}
